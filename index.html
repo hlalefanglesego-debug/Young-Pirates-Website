@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Young Pirates FC | Brightening the Future</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar"><span class="pill">&#9917; Don't miss the next home game at Sicelo Stadium <a href="#fixtures">VIEW FIXTURES</a></span><a class="plans" href="#follow">Follow the club</a></div>
+<div class="mast">
+  <header class="bar">
+    <a href="#home" class="logo" aria-label="Young Pirates FC home"><img src="image/logo1.jpg" alt="Young Pirates FC logo"></a>
+    <button class="burger" id="burger" aria-label="Menu"><i></i><i></i></button>
+    <nav id="nav"><span class="g"><a href="#fixtures">Fixtures</a><a href="#news">News</a><a href="#gallery">Gallery</a><a href="#about">The club</a></span><span class="g"><a href="#team">Team</a><a href="#staff">Staff</a><a href="#trophies">Trophies</a><a href="#alumni">Alumni</a><a href="#contact">Contact</a></span></nav>
+  </header>
+  <div class="stripe"></div>
+</div>
+
+<section class="hero" id="home">
+  <div class="hero-bg"><div class="kb"></div></div><div class="hero-shade"></div>
+  <div class="hero-copy"><h1><span>Brightening the future</span><span>Young Pirates FC</span></h1>
+  <p class="meta"><i class="sq"></i><b>First team</b><span>2026/27 season, Gauteng ABC Motsepe League</span></p></div>
+</section>
+<div class="tiles">
+  <a href="#about"><img src="image/team2.jpg" alt="Squad at training"><span>The club</span></a>
+  <a href="#gallery"><img src="image/cel.jpg" alt="Celebration"><span>In pictures</span></a>
+  <a href="#news"><img src="image/news2.jpg" alt="Team news"><span>Team news</span></a>
+</div>
+<section class="cal" id="fixtures">
+  <div class="cal-head"><h2>Calendar</h2><span class="nm">Next match</span>
+    <div class="clock"><div><b id="cD">00</b><small>Days</small></div><span>:</span><div><b id="cH">00</b><small>Hours</small></div><span>:</span><div><b id="cM">00</b><small>Mins</small></div><span>:</span><div><b id="cS">00</b><small>Secs</small></div></div>
+    <button class="sync" id="sync">Sync calendar</button></div>
+  <div class="cal-row" id="calRow"></div>
+  <div class="cal-ctl"><button id="cprev" aria-label="Earlier matches">&#8592;</button><button id="cnext" aria-label="Later matches">&#8594;</button></div>
+</section>
+
+
+<section class="sec" id="news">
+  <h2>Team news</h2>
+  <div class="news">
+    <article class="card tilt big"><img src="image/news1.jpg" alt="Kasi sport journalist"><div><time>09 Aug 2026</time><h3>The Kasi best sport journalist</h3><p>Life has a tendency of creating chaos before people find each other. The first edition of the Konka Kasi World Cup will go down as the Shushabino show. Thank you Shusha, keep working, the universe is watching.</p></div></article>
+    <article class="card tilt"><img src="image/news2.jpg" alt="Hero"><div><time>10 Aug 2026</time><h3>Hero!</h3><p>What we saw on national television was witnessed live at the Konka Kasi World Cup. The stories will stay with us forever.</p></div></article>
+    <article class="card tilt"><img src="image/new3.jpeg" alt="Peace, graphic designer"><div><time>10 Aug 2026</time><h3>Peace, the club's digital and graphic designer</h3><p>Spotted at the Shushabino tournaments and recruited to join the Konka boys. He works behind the camera, and his work was on show all through the Konka Kasi World Cup.</p></div></article>
+  </div>
+</section>
+
+
+
+<section class="sec about" id="about">
+  <div class="frame tilt"><video src="teamVd/vid.mp4" poster="image/team2.jpg" controls muted loop playsinline></video></div>
+  <div>
+    <h2>The club</h2>
+    <p class="big-p">Young Pirates FC is a movement built on discipline, passion and community. We give young players a platform to shine on the national stage.</p>
+    <dl class="stats"><div><dt data-n="30" data-s="+">0</dt><dd>Active players</dd></div><div><dt data-n="12">0</dt><dd>Youth teams</dd></div><div><dt data-n="5">0</dt><dd>League titles</dd></div></dl>
+  </div>
+</section>
+
+<section class="sec" id="gallery">
+  <h2>Gallery</h2>
+  <div class="ring3d" id="ring3d"><div class="ringStage" id="ring"></div></div>
+  <div class="ring-ctl"><button id="rprev" aria-label="Previous photo">&#8592;</button><span id="ringCap"></span><button id="rnext" aria-label="Next photo">&#8594;</button></div>
+</section>
+<div class="lb" id="lb"><button id="lbx" aria-label="Close">&times;</button><button id="lbp" aria-label="Previous">&#8592;</button><img alt="Expanded photo"><button id="lbn" aria-label="Next">&#8594;</button></div>
+
+<section class="sec" id="staff">
+  <h2>Staff</h2>
+  <div class="staff" id="staffGrid"></div>
+</section>
+
+<section class="sec" id="team">
+  <h2>Team</h2>
+  <p class="cab-intro">The squad at work on the training ground. Pick a clip, or let them play one after another.</p>
+  <div class="theater">
+    <div class="stage tilt"><div class="blur" id="tBlur"></div><video id="tVid" controls playsinline muted preload="metadata" poster="image/teamvid1-poster.jpg" src="teamVd/TeamVid1.mp4"></video><span class="now" id="tNow">Clip 1 of 3</span></div>
+    <div class="reel" id="reel"></div>
+  </div>
+</section>
+
+<section class="sec trophy-bg" id="trophies">
+  <div class="trophy-in">
+    <h2>Trophy cabinet</h2>
+    <p class="cab-intro">Every honour the Pirates have won, from the Kasi tournaments to the league. This is what winning looks like.</p>
+    <ul class="achs" id="achs">
+    <li class="ach" style="--d:0.00s"><span class="ic"><svg viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="tg0" x1="0" x2="1"><stop offset="0" stop-color="#8a6212"/><stop offset=".4" stop-color="#ffe08a"/><stop offset="1" stop-color="#7a5410"/></linearGradient></defs><path d="M26 10H74V38C74 60 62 74 50 74C38 74 26 60 26 38Z" fill="url(#tg0)"/><path d="M26 18H12C8 18 8 40 28 48M74 18H88C92 18 92 40 72 48" fill="none" stroke="url(#tg0)" stroke-width="6" stroke-linecap="round"/><rect x="43" y="72" width="14" height="14" fill="url(#tg0)"/><rect x="30" y="86" width="40" height="9" rx="3" fill="url(#tg0)"/></svg></span><div><b>2025</b><h3>Shushabino Top 32</h3><p>2025 Champions (in association)</p></div></li>
+    <li class="ach" style="--d:0.12s"><span class="ic"><svg viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="tg1" x1="0" x2="1"><stop offset="0" stop-color="#8a6212"/><stop offset=".4" stop-color="#ffe08a"/><stop offset="1" stop-color="#7a5410"/></linearGradient></defs><path d="M26 10H74V38C74 60 62 74 50 74C38 74 26 60 26 38Z" fill="url(#tg1)"/><path d="M26 18H12C8 18 8 40 28 48M74 18H88C92 18 92 40 72 48" fill="none" stroke="url(#tg1)" stroke-width="6" stroke-linecap="round"/><rect x="43" y="72" width="14" height="14" fill="url(#tg1)"/><rect x="30" y="86" width="40" height="9" rx="3" fill="url(#tg1)"/></svg></span><div><b>2025</b><h3>Maberete Champs</h3><p>2025 Champions</p></div></li>
+    <li class="ach" style="--d:0.24s"><span class="ic"><svg viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="tg2" x1="0" x2="1"><stop offset="0" stop-color="#8a6212"/><stop offset=".4" stop-color="#ffe08a"/><stop offset="1" stop-color="#7a5410"/></linearGradient></defs><path d="M26 10H74V38C74 60 62 74 50 74C38 74 26 60 26 38Z" fill="url(#tg2)"/><path d="M26 18H12C8 18 8 40 28 48M74 18H88C92 18 92 40 72 48" fill="none" stroke="url(#tg2)" stroke-width="6" stroke-linecap="round"/><rect x="43" y="72" width="14" height="14" fill="url(#tg2)"/><rect x="30" y="86" width="40" height="9" rx="3" fill="url(#tg2)"/></svg></span><div><b>2024</b><h3>African Pride</h3><p>2024 Champions</p></div></li>
+    <li class="ach" style="--d:0.36s"><span class="ic"><svg viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="tg3" x1="0" x2="1"><stop offset="0" stop-color="#8a6212"/><stop offset=".4" stop-color="#ffe08a"/><stop offset="1" stop-color="#7a5410"/></linearGradient></defs><path d="M26 10H74V38C74 60 62 74 50 74C38 74 26 60 26 38Z" fill="url(#tg3)"/><path d="M26 18H12C8 18 8 40 28 48M74 18H88C92 18 92 40 72 48" fill="none" stroke="url(#tg3)" stroke-width="6" stroke-linecap="round"/><rect x="43" y="72" width="14" height="14" fill="url(#tg3)"/><rect x="30" y="86" width="40" height="9" rx="3" fill="url(#tg3)"/></svg></span><div><b>24/25</b><h3>SAFA GP Hollywoodbets MRL</h3><p>2024/25 Champions</p></div></li>
+    <li class="ach" style="--d:0.48s"><span class="ic"><svg viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="tg4" x1="0" x2="1"><stop offset="0" stop-color="#8a6212"/><stop offset=".4" stop-color="#ffe08a"/><stop offset="1" stop-color="#7a5410"/></linearGradient></defs><path d="M26 10H74V38C74 60 62 74 50 74C38 74 26 60 26 38Z" fill="url(#tg4)"/><path d="M26 18H12C8 18 8 40 28 48M74 18H88C92 18 92 40 72 48" fill="none" stroke="url(#tg4)" stroke-width="6" stroke-linecap="round"/><rect x="43" y="72" width="14" height="14" fill="url(#tg4)"/><rect x="30" y="86" width="40" height="9" rx="3" fill="url(#tg4)"/></svg><em class="x3">x3</em></span><div><b>22–25</b><h3>Sedibeng Stream B MRL</h3><p>Champions 22/23, 23/24 and 24/25</p></div></li>
+    <li class="ach" style="--d:0.60s"><span class="ic"><svg viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="tg5" x1="0" x2="1"><stop offset="0" stop-color="#8a6212"/><stop offset=".4" stop-color="#ffe08a"/><stop offset="1" stop-color="#7a5410"/></linearGradient></defs><path d="M26 10H74V38C74 60 62 74 50 74C38 74 26 60 26 38Z" fill="url(#tg5)"/><path d="M26 18H12C8 18 8 40 28 48M74 18H88C92 18 92 40 72 48" fill="none" stroke="url(#tg5)" stroke-width="6" stroke-linecap="round"/><rect x="43" y="72" width="14" height="14" fill="url(#tg5)"/><rect x="30" y="86" width="40" height="9" rx="3" fill="url(#tg5)"/></svg></span><div><b>2022</b><h3>MLFA Champs</h3><p>2022 Champions</p></div></li>
+    <li class="ach next" style="--d:0.72s"><span class="ic"><svg viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="tg6" x1="0" x2="1"><stop offset="0" stop-color="#8a6212"/><stop offset=".4" stop-color="#ffe08a"/><stop offset="1" stop-color="#7a5410"/></linearGradient></defs><path d="M26 10H74V38C74 60 62 74 50 74C38 74 26 60 26 38Z" fill="url(#tg6)"/><path d="M26 18H12C8 18 8 40 28 48M74 18H88C92 18 92 40 72 48" fill="none" stroke="url(#tg6)" stroke-width="6" stroke-linecap="round"/><rect x="43" y="72" width="14" height="14" fill="url(#tg6)"/><rect x="30" y="86" width="40" height="9" rx="3" fill="url(#tg6)"/></svg></span><div><b>Next</b><h3>MLFA team campaigning</h3><p>Gauteng ABC Motsepe League</p></div></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec alumni" id="alumni">
+  <div class="al-text">
+    <h2>From our academy to the DDC</h2>
+    <p class="big-p">We don't just build teams. We build professional careers, and we're proud of the Pirates we have promoted to the DDC.</p>
+    <div class="quotes">
+      <blockquote>Young Pirates FC gave me the platform, discipline and belief I needed to chase my dream. I will always be a Pirate at heart.<cite>Young Pirates graduate, DDC</cite></blockquote>
+      <blockquote>Every Friday on the Sicelo pitch taught me that talent opens the door, but hard work keeps you in the room.<cite>Young Pirates graduate, DDC</cite></blockquote>
+      <blockquote>The coaches never let me settle. They pushed me until the next level felt like the next step, not a jump.<cite>Young Pirates graduate, DDC</cite></blockquote>
+    </div>
+  </div>
+  <div class="al-photos">
+    <figure class="frame tilt p1"><img src="image/ddc1St.jpeg" alt="Young Pirates graduate signing day at Stellenbosch FC" loading="lazy"><figcaption>Signing day</figcaption></figure>
+    <figure class="frame tilt p2"><img src="image/ddcSK.jpeg" alt="Young Pirates graduate in action on match day" loading="lazy"><figcaption>Match day</figcaption></figure>
+    <figure class="frame tilt p3"><img src="image/ddcSK2.jpeg" alt="Young Pirates graduate at the stadium" loading="lazy"><figcaption>Chasing the dream</figcaption></figure>
+  </div>
+</section>
+
+<section class="motto"><p>We don't just play football.<br>We build character.</p></section>
+
+<section class="social" id="follow">
+  <div class="mosaic" aria-hidden="true"><img src="image/p1.jpeg" alt="" loading="lazy"><img src="image/p4.jpeg" alt="" loading="lazy"><img src="image/p9.jpeg" alt="" loading="lazy"><img src="image/p12.jpeg" alt="" loading="lazy"><img src="image/p15.jpeg" alt="" loading="lazy"><img src="image/p21.jpeg" alt="" loading="lazy"><img src="image/p5.jpeg" alt="" loading="lazy"><img src="image/p18.jpeg" alt="" loading="lazy"><img src="image/p3.jpeg" alt="" loading="lazy"><img src="image/p19.jpeg" alt="" loading="lazy"><img src="image/p11.jpeg" alt="" loading="lazy"><img src="image/p2.jpeg" alt="" loading="lazy"></div>
+  <div class="social-in"><img class="s-logo" src="image/logo1.jpg" alt="Young Pirates FC logo"><h2>Follow the Pirates</h2>
+  <p>Match-day photos, results and club news, straight from our pages.</p>
+  <div class="sbtns">
+   <a class="sb" href="https://www.facebook.com/profile.php?id=100075812149901" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.5 1.6-1.5h1.7V4.4c-.3 0-1.3-.1-2.4-.1-2.4 0-4.1 1.5-4.1 4.2v2.3H7.5V14h2.8v8h3.2z"/></svg><span><b>Facebook</b><small>Young Pirates FC</small></span><em>Follow</em></a>
+   <a class="sb" href="https://www.instagram.com/youngpiratesfc" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg><span><b>Instagram</b><small>@youngpiratesfc</small></span><em>Follow</em></a>
+  </div></div>
+</section>
+<section class="sec" id="partners">
+  <h2>Supported by</h2>
+  <div class="partners">
+    <figure class="tilt"><img src="image/m.jpg" alt="Motsepe Foundation"><figcaption>Motsepe Foundation</figcaption></figure>
+    <figure class="tilt"><img src="image/tinya.jpg" alt="Tinya Sports"><figcaption>Tinya Sports</figcaption></figure>
+    <figure class="tilt"><img src="image/snt.jpg" alt="TNS Sports"><figcaption>TNS Sports</figcaption></figure>
+    <figure class="tilt"><img src="image/adidas.jpg" alt="Adidas"><figcaption>Adidas</figcaption></figure>
+  </div>
+</section>
+<footer id="contact">
+  <div class="f-brand"><img src="image/logo1.jpg" alt="Young Pirates FC logo"><div><h3>Young Pirates FC</h3><p>Brightening the Future</p></div></div>
+  <div><h4>Explore</h4><a href="#fixtures">Fixtures</a><a href="#news">Team news</a><a href="#gallery">Gallery</a><a href="#staff">Staff</a><a href="#trophies">Trophies</a></div>
+  <div><h4>Contact</h4><p>Gauteng, South Africa</p><a href="mailto:musa.wambi@youngpirateskonkafc.co.za">musa.wambi@youngpirateskonkafc.co.za</a></div>
+  <small>&copy; 2026 Young Pirates Football Club. Built for the Konka boys.</small>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
